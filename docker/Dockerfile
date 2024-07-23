@@ -2,7 +2,7 @@ FROM openjdk:8u151-jdk-alpine3.7
 
 EXPOSE 8083
 
-ENV APP_HOME /usr/src/app
+ENV APP_HOME /home/ubuntu/Ekart/src/app
 
 COPY target/shopping-cart-0.0.1-SNAPSHOT.jar $APP_HOME/app.jar
 
