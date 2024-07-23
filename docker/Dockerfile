@@ -1,6 +1,6 @@
 FROM openjdk:8u151-jdk-alpine3.7
 
-EXPOSE 8083
+EXPOSE 8084
 
 ENV APP_HOME /home/ubuntu/Ekart/src/app
 
